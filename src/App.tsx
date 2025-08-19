@@ -1,12 +1,17 @@
-import './App.css'
+import './App.css';
+import Accordion from './pages/Accordion';
+import Counter from './pages/counter';
+import Generator from './pages/Generator';
+import Timer from './pages/Timer';
 
 function App() {
 
   return (
     <>
-       <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+      <Counter />
+      <Accordion/>
+      <Generator />
+      <Timer />
     </>
   )
 }
